@@ -1,4 +1,4 @@
-package prueba;
+package FicherosPractica;
 
 public class Empleado {
     private String nombre;

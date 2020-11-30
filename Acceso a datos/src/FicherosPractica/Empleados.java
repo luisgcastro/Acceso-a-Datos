@@ -1,5 +1,5 @@
 
-package prueba;
+package FicherosPractica;
 
 import java.util.ArrayList;
 import java.util.Scanner;
