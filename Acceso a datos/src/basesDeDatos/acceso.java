@@ -18,7 +18,7 @@ public class acceso {
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/ventajuegos", "root", "");
+			Connection conexion = DriverManager.getConnection("jdbc:mysql://hl192.dinaserver.com/cfgsl_ejad", "cfgsl_adminejad", "quesitos01");
 			
 			Statement sentencia = conexion.createStatement();
 			

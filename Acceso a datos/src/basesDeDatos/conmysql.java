@@ -13,8 +13,10 @@ import java.util.Scanner;
 public class conmysql {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int result=0;
+		Connection conexion = null;
+		Statement sentenciaSQL = null;
+		
 		try { 
 			String cbarras;
 			String Juego;
@@ -39,16 +41,16 @@ public class conmysql {
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			
-			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/ventajuegos", "root", "");
+			conexion = DriverManager.getConnection("jdbc:mysql://localhost/ventajuegos", "root", "");
 			
 			
 			
-			Statement sentenciaSQL = conexion.createStatement();
+			sentenciaSQL = conexion.createStatement();
 			
 			//String sql = "Insert into juegos (juego, desarrolladora, cbarras) values ('test', 'testd', '123')";
 			String sql = "Insert into juegos (juego, desarrolladora, cbarras) values ('NULL', '"+cbarras+"', '"+Juego+"', '"+Desarrolladora+"')";
 			
-			int result = sentenciaSQL.executeUpdate(sql);
+			result = sentenciaSQL.executeUpdate(sql);
 			System.out.println("\n" + sql + "\n");
 			if (result >= 1) {
 				System.out.println("Se ha insertado bien");
@@ -63,6 +65,12 @@ public class conmysql {
 		}catch (SQLException ex) {
 			Logger.getLogger(conmysql.class.getName()).log(Level.SEVERE, null, ex);
 		}finally {
+			try {
+				sentenciaSQL.close();
+				conexion.close();
+			}catch (SQLException ex) {
+				System.out.println("Error");
+			}
 			
 		}
 	
