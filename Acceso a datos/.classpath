@@ -6,10 +6,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/luisg/OneDrive/Escritorio/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/luisg/OneDrive/Escritorio/Librerías/neodatis-odb-1.9.30-689/src/neodatis-odb-1.9.30.689-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luisg/OneDrive/Escritorio/Librerías/neodatis-odb-1.9.30-689/lib/looks-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luisg/OneDrive/Escritorio/Librerías/neodatis-odb-1.9.30-689/neodatis-odb-1.9.30.689.jar"/>
+	<classpathentry kind="lib" path="C:/Users/luisg/OneDrive/Escritorio/Librerías/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
