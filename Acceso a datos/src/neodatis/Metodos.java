@@ -30,6 +30,7 @@ public class Metodos {
 	}
 		
 	public static Alumno crear_Alumno() {
+		return null;
 		
 		
 	}
