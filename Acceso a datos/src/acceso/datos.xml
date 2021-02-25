@@ -1,0 +1,17 @@
+<alumnos>
+  <alumno name ="Israel">
+    <PSP>8</PSP
+    <PM>10</PM>
+    <AD>9</AD>
+  </alumno>
+  <alumno name ="Luis">
+    <PSP>10</PSP
+    <PM>9</PM>
+    <AD>8</AD>
+  </alumno>
+  <alumno name ="Veronica">
+    <PSP>9</PSP
+    <PM>8</PM>
+    <AD>10</AD>
+  </alumno>
+</alumnos>
