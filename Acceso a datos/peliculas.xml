@@ -1,0 +1,13 @@
+<peliculas>
+
+<peli genero="FicciÃ³n">
+<titulo>Animales FantÃ¡sticos</titulo>
+<ano>2016</ano>
+</peli>
+
+<peli genero="FicciÃ³n">
+<titulo>Peli de FicciÃ³n 2</titulo>
+<ano>2018</ano>
+</peli>
+
+</peliculas>
