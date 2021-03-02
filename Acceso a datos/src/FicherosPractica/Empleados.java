@@ -82,12 +82,12 @@ public class Empleados {
         
         System.out.println("Introduce el nombre: ");
         String nombre = sc.nextLine();
-        /*
+        
         for(int i = 0; i < listaEmpleados.size(); i++){
-            if(empleados == listaEmpleados.get(i).toString(){
+            if(empleados == listaEmpleados.get(i).toString());
                 
-            }
+        
         }
-        */
+        
     }
 }
